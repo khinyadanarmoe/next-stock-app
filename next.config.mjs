@@ -3,8 +3,8 @@ const nextConfig = {
   experimental: {
     instrumentationHook: true,
   },
- 
-  basePath: process.env.NEXT_PUBLIC_API_URL,
+
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
 
 
 };
